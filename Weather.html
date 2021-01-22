@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="short-icon" src="">
+        <link rel="stylesheet" href="weather.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
+    </head>
+    <body>
+        <form id="search-form">
+            <input type="search"
+            placeholder="Enter City Name"
+            id="search-input"
+            requiredautocomplete="off"/>
+            <br>
+        </br>
+            <button id="search-button">Search</button>
+        </form>
+        <main id="app-container">
+            <div id="location">
+                <p>------</p>
+            </div>
+            <div id="temp">
+                <img src="file:///C:/Users/LENOVO/Desktop/Weather%20app/atmosphere.svg" alt="" id="temp-icon"></i>
+                <p><span id="temp-value">------</span><span id="temp-unit">&#176c</span></p>
+            </div>
+            <div id="climate">
+                <p>-----</p>
+            </div>
+        </main>
+        <script src="weather.js"></script>
+    </body>
+</html>
